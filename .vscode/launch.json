@@ -1,0 +1,17 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run main.py with arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/statzcw/main.py",
+            "args": [
+                "${workspaceFolder}/dataOne.csv",
+                "${workspaceFolder}/dataThree.csv"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
